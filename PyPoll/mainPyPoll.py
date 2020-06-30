@@ -10,8 +10,8 @@ winning_count = 0
 
 
 #Import and export paths
-election_csv = os.path.join('..', 'Resources', 'election_data.csv')
-OutPutPath = os.path.join("..", "Resources", "Pollanalysis.txt")
+election_csv = os.path.join('Resources', 'election_data.csv')
+OutPutPath = os.path.join("Analysis", "Pollanalysis.txt")
 
 #open and read csv
 with open(election_csv) as csvfile:

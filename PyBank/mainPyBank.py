@@ -1,8 +1,8 @@
 import os
 import csv
 
-budget_csv = os.path.join("..", "Resources", "budget_data.csv")
-OutPutPath = os.path.join("..", "Resources", "Budgetanalysis.txt")
+budget_csv = os.path.join("Resources", "budget_data.csv")
+OutPutPath = os.path.join("Analysis", "Budgetanalysis.txt")
 totalPL = 0
 totalmonths = 0
 aveRevChange = []
